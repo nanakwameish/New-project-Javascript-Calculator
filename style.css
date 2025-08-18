@@ -2,7 +2,7 @@ body{
     margin: 50px;
     display: flex;
     justify-content: center;
-    height: 75vh;
+    height:79vh;
     background-color: hsl(0, 0%, 96%);
 
 }
@@ -20,6 +20,7 @@ body{
     border: none;
     text-align: left;
     background-color: hsl(0, 0%, 20%);
+    color: white;
 
 }
 #keys{
@@ -58,4 +59,9 @@ button:active{
 }
 .top{
     background-color: rgba(255, 255, 255, 0.481);
+}
+#divide {
+    width: 45px;
+    height: 40px;
+    filter: invert(100%);
 }
