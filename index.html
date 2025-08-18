@@ -10,20 +10,19 @@
     <div id="calculator">
         <input id="display" readonly></input>
         <div id="keys">
-            <button onclick="appendToDisplay('AC')" class="top">AC</button> <!--this is good -->
-            <button onclick="appendToDisplay('C')" class="top">C</button> <!--this is good -->
+            <button onclick="clearDisplay('AC')" class="top">AC</button> <!--this is good -->
+            <button onclick="clearDisplay('C')" class="top">C</button> <!--this is good -->
             <button onclick="appendToDisplay('%')" class="top">%</button> <!--this is good -->
-            <button onclick="appendToDisplay('/')" class="operator">/</button> <!--this is good -->
+            <button onclick="appendToDisplay('/')" class="operator"><img id="divide" src="images/divide.png" alt=""></button> <!--this is good -->
             <button onclick="appendToDisplay('7')">7</button> <!--this is good -->
             <button onclick="appendToDisplay('8')">8</button> <!--this is good -->
             <button onclick="appendToDisplay('9')">9</button> <!--this is good -->
-            <button onclick="appendToDisplay('*')" class="operator">*</button> <!--this is good -->
+            <button onclick="appendToDisplay('*')" class="operator">x</button> <!--this is good -->
             <button onclick="appendToDisplay('4')">4</button> <!--this is good -->
             <button onclick="appendToDisplay('5')">5</button> <!--this is good -->
             <button onclick="appendToDisplay('6')">6</button> <!--this is good -->
             <button onclick="appendToDisplay('-')" class="operator">-</button> <!--this is good -->
             <button onclick="appendToDisplay('1')">1</button>
-            
             <button onclick="appendToDisplay('2')">2</button>
             <button onclick="appendToDisplay('3')">3</button>
             <button onclick="appendToDisplay('+')" class="operator">+</button> <!--this is good -->
@@ -33,5 +32,6 @@
             <button onclick="calculate()" class="operator">=</button> <!--this is good -->
         </div>
     </div>
+    <script src="calc.js"></script>
 </body>
 </html>
